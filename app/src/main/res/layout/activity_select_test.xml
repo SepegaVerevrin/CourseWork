@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black" >
+
+    <TextView
+        android:id="@+id/theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/yellow"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:gravity="center"
+        android:text="@string/select_correct_answer"
+        android:textSize="18sp"
+        android:textColor="@color/yellow"/>
+        <CheckBox
+            android:id="@+id/firstAnswerCheckBox"
+            android:buttonTint="@color/yellow"
+            android:layout_marginLeft="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"/>
+
+        <CheckBox
+            android:id="@+id/secondAnswerCheckBox"
+            android:buttonTint="@color/yellow"
+            android:layout_marginLeft="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"/>
+
+        <CheckBox
+            android:id="@+id/thirdAnswerCheckBox"
+            android:buttonTint="@color/yellow"
+            android:layout_marginLeft="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"/>
+
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:background="@color/yellow"
+        android:text="@string/continueGo"
+        android:textSize="18sp" />
+
+</LinearLayout>

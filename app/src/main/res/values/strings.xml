@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SANS\'s training translation</string>
+    <string name="translator">Translator</string>
+    <string name="tests">Tests</string>
+    <string name="number">number</string>
+    <string name="inputnumsystem">inputNumSystem</string>
+    <string name="outputnumsystem">outputNumSystem</string>
+    <string name="result">result</string>
+    <string name="translate">Translate</string>
+    <string name="select_correct_answer">select the correct answer</string>
+    <string name="continueGo">continue</string>
+    <string name="writeAnAnswer">write an answer</string>
+</resources>

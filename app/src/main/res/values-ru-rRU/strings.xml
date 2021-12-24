@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SANS\'s training translation</string>
+    <string name="translator">калькулятор</string>
+    <string name="tests">обучение</string>
+    <string name="number">число</string>
+    <string name="inputnumsystem">начальная система</string>
+    <string name="outputnumsystem">конечная система</string>
+    <string name="result">результат</string>
+    <string name="translate">перевести</string>
+    <string name="select_correct_answer">выберите правильный ответ</string>
+    <string name="continueGo">продолжить</string>
+    <string name="writeAnAnswer">введите ответ</string>
+</resources>
